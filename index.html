@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div id="buttons-container">
+    <button onclick="changeItem('cozy')">Make Gilbert Cozy</button>
+    <button onclick="changeItem('hat')">Make Gilbert Wear a Hat</button>
+    <button onclick="changeItem('festive')">Make Gilbert Festive</button>
+    <button class="button" onclick="changeItem('barbie')">Make Gilbert Barbie Ready</button>
+    <button onclick="changeItem('plain')">Make Gilbert Get His Dignity Back</button>
+  </div>
+
+  <div id="character">
+      <img id="characterImage" src="images/Gilbert plain.png" alt="Character">
+      <img class="item" id="plain" src="images/Gilbert plain.png" alt="character">
+      <img class="item" id="barbie" src="images/Barbie Gilbert.png" alt="character">
+      <img class="item" id="cozy" src="images/Cozy Gilbert.png" alt="character">
+      <img class="item" id="hat" src="images/Gilbert hat.png" alt="character">
+      <img class="item" id="festive" src="images/Holiday Gilbert.png" alt="character">
+  </div>
+
+  <!-- Include jQuery before your custom script -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <!-- Include your custom script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
